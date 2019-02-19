@@ -23,7 +23,7 @@ namespace VirtualMoney.Controllers
             await Task.Run<IActionResult>(() =>
             {
                 if (_repository.TryTransaction(order, out Transaction transaction))
-                    return Ok(transaction); // using 200 status code instead of 201 to omitt transaction identification
+                    return Ok(transaction); // using 200 status code instead of 201 to omit transaction identification
                 else
                     return BadRequest("Invalid order!");
             });
