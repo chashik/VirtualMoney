@@ -1,5 +1,4 @@
 ### VirtualMoney
-#### Asp Net Core 2.2 virtual money RESTful web-api
 ####
 #### Highlights:
 * Virtual money web-api example;
