@@ -1,5 +1,5 @@
 ### VirtualMoney
-#### ASP Net Core 2.2, REST, web-api
+#### ASP Net Core 2.2, REST. Web-api, DI, "tiny" controllers demo
 ####
 #### Highlights:
 * Models: user, transaction and order (to create transaction);
