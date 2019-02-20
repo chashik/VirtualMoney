@@ -1,7 +1,7 @@
 ### VirtualMoney
+#### ASP Net Core 2.2, REST, web-api
 ####
 #### Highlights:
-* Virtual money asp net core 2.2 REST web-api example;
 * Models: user, transaction and order (to create transaction);
 * Tiny controllers, buisiness logic implemented with Repository class;
 * DI pattern (https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.2);
