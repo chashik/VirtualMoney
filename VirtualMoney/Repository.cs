@@ -55,7 +55,7 @@ namespace VirtualMoney
             lock (_usersLock)
                 return _users.Where(p => p.Login == login).Count() == 0
                     && _users.Add(new User { Login = login, SecretHash = HashString(secret) })
-                    && _transactions.Add(
+                    && _transactions.Add( // some "unclean" logic, single responsibility failed)))
                         new Transaction
                         {
                             Payer = login,
